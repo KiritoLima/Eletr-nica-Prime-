@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eletrônica Prime</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="optimus/optimus_logo00.jpg" alt="Logo Eletrônica Prime" class="logo">
+            <h1>Bem-vindo à Eletrônica Prime!</h1>
+        </div>
+    </header>
+<br>
+    <section>
+        <div class="image-text-container">
+            <img src="optimus/optimus01.jpg" alt="Fabricio compre conosco!" class="produto-imagem">
+            <h2>Fabricio compre conosco!</h2>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="optimus_prime1.jpg" alt="Optimus Prime" style="width:100%">
+                <div class="text">Tecnologia de Ponta!</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="product_sale.jpg" alt="Promoção" style="width:100%">
+                <div class="text">Descontos Especiais</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="electronics_products.jpg" alt="Eletrônicos" style="width:100%">
+                <div class="text">Eletrônica Prime: O Melhor da Tecnologia</div>
+            </div>
+        </div>
+    </section>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </label>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">História</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Celulares Prime</a></li>
+            <li><a href="#">Notebooks Prime</a></li>
+            <li><a href="#">Computadores Prime</a></li>
+        </ul>
+    </nav>
+<br>
+    <section>
+        <h2>Confira Nossos Produtos:</h2>
+        <div class="produto-list">
+            <div class="produto">
+                <img src="imagens celular/celular1.jpeg" alt="Celular Prime">
+                <h3>Celular Prime X</h3>
+                <p>O Celular Prime X oferece uma experiência imersiva com sua tela de 6.5" e câmera de 108MP. Perfeito para quem busca desempenho e qualidade em um smartphone.</p>
+                <p><strong>Preço: R$ 3.999,00</strong></p>
+            </div>
+            <div class="produto">
+                <img src="imagens notbook/notbook1.jpg" alt="Notebook Prime">
+                <h3>Notebook Prime Pro</h3>
+                <p>Com processador Intel Core i7 de 11ª geração, o Notebook Prime Pro é ideal para profissionais que exigem performance e mobilidade em um só equipamento.</p>
+                <p><strong>Preço: R$ 7.499,00</strong></p>
+            </div>
+            <div class="produto">
+                <img src="imagens computador/pc1.jpg" alt="Computador Prime">
+                <h3>Computador Prime Gamer</h3>
+                <p>Equipado com uma placa de vídeo RTX 3080 e 32GB de RAM, o Computador Prime Gamer garante desempenho extremo para os jogos mais avançados.</p>
+                <p><strong>Preço: R$ 12.999,00</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="messagem-container">
+            <h2>Envie uma mensagem para nós</h2>
+        </div>
+
+        <form id="contato-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <hr>
+        <p style="text-align: center; margin-top: 20px;">&copy; 2024 Eletrônica Prime. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
