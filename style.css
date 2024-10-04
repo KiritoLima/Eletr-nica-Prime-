@@ -111,14 +111,14 @@ header {
 
 .image-text-container {
     display: flex;
-    flex-direction: column; /* Muda a direção para coluna */
-    align-items: center; /* Centraliza horizontalmente */
+    flex-direction: column; 
+    align-items: center; 
     margin-bottom: 20px;
 }
 
 
 .produto-imagem {
-    width: 300px; /* Ajuste a largura da imagem como preferir */
+    width: 300px; 
     margin-right: 20px;
 }
 
